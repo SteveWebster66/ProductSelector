@@ -1,0 +1,13 @@
+{
+	"LONDON" : [
+				    { "genre" : "Sports", "id" : "Arsenal TV"},
+				    { "genre" : "Sports", "id" : "Chelsea TV"},
+				    { "genre" : "News", "id" : "Sky News"},
+				    { "genre" : "News", "id" : "Sky Sports News"}
+				],
+    "LIVERPOOL" : [
+ 					{ "genre" : "Sports", "id" : "Liverpool TV"},
+				    { "genre" : "News", "id" : "Sky News"},
+				    { "genre" : "News", "id" : "Sky Sports News"}
+    			]
+ }

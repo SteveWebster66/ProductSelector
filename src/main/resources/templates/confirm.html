@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Sky Product Selector</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <p th:text="${customerId} + ' ' + ${msg}" />
+
+    <th:block th:each="product : ${purchased}">
+ 		<p><label th:text="${product}"></label></p>
+    </th:block>
+</body>
+</html>
